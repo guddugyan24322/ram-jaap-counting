@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>राम नाम जप काउंटर</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>राम नाम जप काउंटर</h1>
+<div id="status">सुनना शुरू करने के लिए Start दबाएँ।</div>
+
+<div id="controls">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn" disabled>Stop</button>
+</div>
+
+<div>
+  <div class="counter-box" id="countBox1">जप (राम) : 0 / 108</div>
+  <div class="counter-box" id="countBox2">माला : 0</div>
+  <div class="counter-box" id="countBox3">कुल जप : 0</div>
+</div>
+
+<div id="topRightContainer">
+  <div id="jaapHistory">
+    <h3>जप इतिहास (दिनवार)</h3>
+    <ul id="historyList"></ul>
+  </div>
+
+  <div id="jaapSummary">
+    <div>संपूर्ण जप</div>
+    <div id="totalJaap">0</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
